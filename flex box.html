@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: rgb(78, 76, 76);
+
+        }
+        .containor{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .containerpk {
+            display: flex;
+            color: lightgray;
+            flex-direction: column;
+            background-color: rgb(78, 76, 76);
+           
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            margin-left: 0rem;
+            width: 25rem;
+        }
+
+        .container {
+            display: flex;
+            color: #fff;
+            background-color: rgb(78, 76, 76);
+            flex-direction: column;
+            border: gray solid;
+            width: 70rem;
+            margin-left:15em ;
+           /* margin-top: 0rem;
+            margin-right: 25rem;
+            margin-bottom: 10rem;
+            margin-left: 20rem;
+        */}
+
+        .boxpk {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.1rem;
+            font-size: 1rem;
+            /*border-bottom: lightgray 1px solid;*/
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.1rem;
+            font-size: 1rem;
+            border-bottom: lightgray 1px solid;
+            align-items: center;
+
+
+        }
+
+        .box:hover {
+            background-color: gray;
+        }
+
+        .box>div {
+            margin-right: 3em;
+            width: 10em;
+
+        }
+
+        .box>p:nth-of-type(1) {
+            flex-grow: 1;
+        }
+
+        .box-head {
+
+            color: #fff;
+            display: flex;
+            background-color: grey;
+            padding: 1rem;
+            border: lightgray 1px solid;
+            justify-content: space-between;
+            padding: 0.1rem;
+            font-size: 1rem;
+            align-items: center;
+
+        }
+
+        img {
+            border-radius: 50%;
+            max-width: 3em;
+        }
+
+        .avatar {
+            display: flex;
+            align-items: center;
+        }
+
+        .material-icons {
+            display: flex;
+            align-items: center;
+            max-width: 3em;
+            border-radius: 50%;
+        }
+
+        .hashtag {
+            border: lightgray 1px solid;
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div class="containor">
+     
+
+        <div class="container">
+            <div class="box-head">
+               <div class="avatar"><img src="health.jfif" alt="avatar" >
+                    <p>may-96 ....</p>
+                </div>
+                <p>3f72d43 3 days ago <i class="fa fa-clock-o"></i> 119 comments</p>
+            </div>
+
+
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> app
+                    </p>
+                </div>
+                <p>...</p>
+                <p>3 days ago</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> bootstrap
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> config
+                    </p>
+                </div>
+                <p>...</p>
+                <p>3 days ago</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> database
+                    </p>
+                </div>
+                <p>...</p>
+                <p>last week</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> lang/en
+                    </p>
+                </div>
+                <p>Recurring</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> public
+                    </p>
+                </div>
+                <p>...</p>
+                <p>3 day ago</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> resources
+                    </p>
+                </div>
+                <p>...</p>
+                <p>3 days ago</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> routes
+                    </p>
+                </div>
+                <p>...</p>
+                <p>3 days ago</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> storage
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-folder"></i> tests
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> .edtorconfig
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> ,gitattributes
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> .gitignore
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> README.md
+                    </p>
+                </div>
+                <p>Allow user to select weather or not to save browser.Dynamic number o...</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> artisan
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> composer.lock
+                    </p>
+                </div>
+                <p>clients-module-without-upload-attachment</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> package-lock.jason
+                    </p>
+                </div>
+                <p>init</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> pacage.jason
+                    </p>
+                </div>
+                <p>basic auth</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> phpunit.xml
+                    </p>
+                </div>
+                <p>first commit</p>
+                <p>last month</p>
+            </div>
+            <div class="box">
+                <div>
+                    <p>
+                        <i class="fa fa-file"></i> webpack.mix.js
+                    </p>
+                </div>
+                <p>...</p>
+                <p>last week</p>
+            </div>
+
+        </div>
+        <div class="containerpk">
+            <div class="boxpk">No description,website, or topics provided</div>
+            <div class="boxpk">
+                <p><i class="fa fa-book"></i> Readme</p>
+            </div>
+            <div class="boxpk">
+                <p><i class="fa fa-star"></i> 0 stars</p>
+            </div>
+            <div class="boxpk">
+                <p><i class="fa fa-eye"></i> 2 watching</p>
+            </div>
+            <div class="boxpk">
+                <p><i class="fa fa-code-fork"></i> 0 forks</p>
+            </div>
+            <div class="hashtag"></div>
+            <div class="boxpk">
+                <h4>Relases</h4>
+            </div>
+            <div class="boxpk"> No relases published </div>
+            <div class="boxpk"><a href="#">Create a new relases</a></div>
+            <div class="hashtag"></div>
+            <div class="boxpk">
+                <h5>Packages</h5>
+            </div>
+            <div class="boxpk"> No pacages published </div>
+            <div class="boxpk"><a href="#">Publish your first package</a></div>
+            <div class="hashtag"></div>
+            <div class="boxpk">
+                <h5>Contributors  3</h5>
+            </div>
+            <div class="boxpk">
+                <div class="avatar"><img src="health.jfif" alt="avatar">
+                    <p>may-96 MAY</p>
+                </div>
+            </div>
+            <div class="boxpk">
+                <div class="avatar"><img src="health.jfif" alt="avatar">
+                    <p>Shahzad07 Shahzad Khan</p>
+                </div>
+            </div>
+            <div class="boxpk">
+                <div class="avatar"><img src="health.jfif" alt="avatar">
+                    <p>uhzair Uzair Mehmood</p>
+                </div>
+            </div>
+            <div class="hashtag"></div>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
