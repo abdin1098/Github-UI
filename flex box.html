@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <style>
         * {
             box-sizing: border-box;
@@ -32,6 +34,7 @@
             margin-bottom: 0rem;
             margin-left: 0rem;
             width: 25rem;
+            
         }
 
         .container {
@@ -40,18 +43,17 @@
             background-color: rgb(78, 76, 76);
             flex-direction: column;
             border: gray solid;
-            width: 70rem;
-            margin-left: 15em;
-            /* margin-top: 0rem;
-            margin-right: 25rem;
-            margin-bottom: 10rem;
-            margin-left: 20rem;
-        */
+            width: 75rem;
+            margin-left: 18em;
+            padding-right: 0rem;
+            padding-left: 0rem;
+           
+    
         }
 
         .boxpk {
             display: flex;
-            justify-content: space-between;
+            /*justify-content: space-between;*/
             padding: 0.1rem;
             font-size: 1rem;
             /*border-bottom: lightgray 1px solid;*/
@@ -117,6 +119,15 @@
         .hashtag {
             border: lightgray 1px solid;
         }
+
+        .imp {
+            background-color: gray;
+            border-radius: 15px;
+            padding: 1px;
+            width: 17px;
+            height: 17px;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -126,7 +137,7 @@
 
         <div class="container">
             <div class="box-head">
-                <div class="avatar"><img src="health.jfif" alt="avatar">
+                <div class="avatar"><img src="logo.jpg" alt="avatar">
                     <p>may-96 ....</p>
                 </div>
                 <p>3f72d43 3 days ago <i class="fa fa-clock-o"></i> 119 comments</p>
@@ -343,22 +354,33 @@
             <div class="boxpk"> No pacages published </div>
             <div class="boxpk"><a href="#">Publish your first package</a></div>
             <div class="hashtag"></div>
-            <div class="boxpk">
-                <h5>Contributors 3</h5>
+            <div class="boxpk" style="justify-content: start; align-content: center;">
+                <h5>Contributors 
+                </h5>
+                <p class="imp" style="margin: 0 !important;"> 3</p>
             </div>
             <div class="boxpk">
-                <div class="avatar"><img src="health.jfif" alt="avatar">
-                    <p>may-96 MAY</p>
-                </div>
+                        <div style="padding: 3px;">
+                        <img class="avatar" src="logo.jpg" alt="avatar"></div>
+                        
+                            <p style="padding: 3px;">may-96</p>
+                            <p class="text-muted"> MAY</p>
+                        
+                        
+
             </div>
             <div class="boxpk">
-                <div class="avatar"><img src="health.jfif" alt="avatar">
-                    <p>Shahzad07 Shahzad Khan</p>
-                </div>
+                <div style="padding: 3px;">
+                    <img class="avatar" src="logo.jpg" alt="avatar"></div>
+                    <p style="padding: 3px;">Shahzad07</p>
+                    <p class="text-muted"> Shahzad Khan </p>
+                
             </div>
             <div class="boxpk">
-                <div class="avatar"><img src="health.jfif" alt="avatar">
-                    <p>uhzair Uzair Mehmood</p>
+                <div style="padding: 3px;"> 
+                    <img class="avatar" src="logo.jpg" alt="avatar"></div>
+                    <p style="padding: 3px;">Uzair</p>
+                    <p class="text-muted"> Uzair Mehmood</p>
                 </div>
             </div>
             <div class="hashtag"></div>
